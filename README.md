@@ -5,7 +5,7 @@
 **Objective**: Convert a folder of rice grain images into a structured, compressed dataset for efficient processing.  
 
 1. **Image Collection**:  
-   - Gather RGB or grayscale images of rice grains (Jasmine, Arborio=0, Basmati=1, Ipsala=2,Jasmine=3, Karacadag=4 ) stored in class-specific folders.
+   - Gather grayscale images of rice grains (Arborio=0, Basmati=1, Ipsala=2,Jasmine=3, Karacadag=4 ) stored in class-specific folders.
 2. **Conversion to Compressed Format**:  
    - Flatten each image into a 1D array of pixel values.  
    - Store all images and labels in a pandas DataFrame.  
